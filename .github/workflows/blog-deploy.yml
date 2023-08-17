@@ -25,10 +25,11 @@ jobs:
           echo "npm version is $(npm -v)"
 
       - name: Install Hexo dependencies
-        run: npm install -g hexo-cli
+        run: |
+          npm install -g hexo-cli
+          npm install hexo-theme-fluid
+          npm install hexo-auto-category --save
 
-      - name: Install Hexo hexo-theme-fluid
-        run: npm install hexo-theme-fluid
 
       - name: Build
         run: |
@@ -36,10 +37,16 @@ jobs:
           git config --global user.email "action@github.com"
           sed -i'' "s~git@github.com:~https://${{ secrets.GH_TOKEN }}@github.com/~" _config.yml
           rm -rf .deploy_git
-          npm install hexo-auto-category --save
           
       - name: Deploy
         run: |
           hexo clean
           hexo build
           hexo deploy
+          
+      - name: Build and Deploy
+        uses: JamesIves/github-pages-deploy-action@4.1.1
+        with:
+          ACCESS_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          BRANCH: main  
+          FOLDER: public   

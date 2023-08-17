@@ -21,3 +21,5 @@ RMI（Remote Method Invocation，远程方法调用）是Java的一组拥护开�
 RMI依赖的通信协议是JRMP。JRMP： Java远程方法协议（Java Remote Method
 Protocol，JRMP ），是特定于Java技术的、用于查找和引用远程对象的协议。
 RMI对象是通过序列化方式进行传输的。
+
+1111111

@@ -24,12 +24,16 @@ jobs:
           echo "Node version is $(node -v)"
           echo "npm version is $(npm -v)"
 
-      - name: Build & Deploy
+      - name: Build
         run: |
           git config --global user.name "GitHub Action"
           git config --global user.email "action@github.com"
           sed -i'' "s~git@github.com:~https://${{ secrets.GH_TOKEN }}@github.com/~" _config.yml
           rm -rf .deploy_git
-          npm run clean
-          npm run build
-          npm run deploy
+          npm install hexo-auto-category --save
+          
+      - name: Deploy
+        run: |
+          hexo clean
+          hexo build
+          hexo deploy

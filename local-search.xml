@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+  
+  
+  
+  <entry>
+    <title>java代码审计-java基础</title>
+    <link href="/2023/08/a2415cd4cbb8.html"/>
+    <url>/2023/08/a2415cd4cbb8.html</url>
+    
+    <content type="html"><![CDATA[<h1 id="基础知识"><a href="#基础知识" class="headerlink" title="基础知识"></a>基础知识</h1><h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><pre><code class="hljs">这篇文章主要是针对我之前的java代码审计的复习文章,对之前代码审计的学习过程中的java基础知识的复习</code></pre><h2 id="问题"><a href="#问题" class="headerlink" title="问题"></a>问题</h2><pre><code class="hljs">对一个领域进行学习的过程中最重要的就是关于需要解决的问题,,这里用一些回答来开启复习之旅</code></pre>]]></content>
+    
+    
+    <categories>
+      
+      <category>代码审计</category>
+      
+      <category>java代码审计</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>代码审计</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="/2023/08/b309ebcf467f.html"/>
+    <url>/2023/08/b309ebcf467f.html</url>
+    
+    <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">$ hexo new <span class="hljs-string">&quot;My New Post&quot;</span><br></code></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">$ hexo server<br></code></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">$ hexo generate<br></code></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">$ hexo deploy<br></code></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>]]></content>
+    
+    
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>hexo web文章测试</title>
+    <link href="/2023/08/baf012779bb2.html"/>
+    <url>/2023/08/baf012779bb2.html</url>
+    
+    <content type="html"><![CDATA[<h1 id="概念"><a href="#概念" class="headerlink" title="概念"></a>概念</h1><p>RMI（Remote Method Invocation，远程方法调用）是Java的一组拥护开发分布式应用程</p><p>序的API。RMI使用Java语言接口定义了远程对象，它集合了Java序列化和Java远程方法</p><p>协议(Java Remote Method Protocol)。</p><p>简单地说，原先的程序仅能在同一操作系统的方法调用，通过RMI可以变成在不同操作</p><p>系统之间对程序中方法的调用。</p><p>RMI依赖的通信协议是JRMP。JRMP： Java远程方法协议（Java Remote Method<br>Protocol，JRMP ），是特定于Java技术的、用于查找和引用远程对象的协议。<br>RMI对象是通过序列化方式进行传输的。</p><p>1111111</p>]]></content>
+    
+    
+    <categories>
+      
+      <category>web安全</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>web安全</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>actiontest.md</title>
+    <link href="/2023/08/2c84786c6d3c.html"/>
+    <url>/2023/08/2c84786c6d3c.html</url>
+    
+    <content type="html"><![CDATA[<h1 id="一级标题"><a href="#一级标题" class="headerlink" title="一级标题"></a>一级标题</h1><p>代码测试：<br>`&#96;&#96;py<br>print(“Hello”)<br>`&#96;&#96;</p><p>注意：这里因为我放在md文件中的，所以加上了\，不解析&#96;&#96;&#96;，实际测试时请去掉\。</p><p>图片测试：</p><p><img src="http://mculover666.cn/blog/20191031/R4mWMXsrRKxu.png?imageslim"></p><p>引用测试：</p><blockquote><p>这是一条引用</p></blockquote><h2 id="二级标题"><a href="#二级标题" class="headerlink" title="二级标题"></a>二级标题</h2><p>无序列表测试：</p><ul><li>哈哈</li><li>嘿嘿</li><li>吼吼</li></ul><h3 id="三级标题"><a href="#三级标题" class="headerlink" title="三级标题"></a>三级标题</h3><h4 id="四级标题"><a href="#四级标题" class="headerlink" title="四级标题"></a>四级标题</h4>]]></content>
+    
+    
+    
+    <tags>
+      
+      <tag>test</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  
+</search>
